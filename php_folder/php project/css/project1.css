@@ -1,0 +1,30 @@
+@keyframes slides
+{
+0% {left:0%;}
+20% {left:0%;}
+25% {left:-100%;}
+45% {left:-100%;}
+50% {left:-200%;}
+70% {left:-200%;}
+75% {left:-300%;}
+95% {left:-300%;}
+100% {left:-400%;}
+}
+#section 
+{
+overflow:visible;
+}
+#section figure img
+{
+width:20%;
+float:left;
+height:600px; 
+}
+#section figure
+{
+ position:relative;
+ width:470%;
+ left:0;
+ margin:0;
+ animation:10s slides infinite;
+}

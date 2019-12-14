@@ -1,0 +1,50 @@
+<!Docktypehtml>
+<html>
+<head>
+	<link rel="stylesheet" href= "web3.css">
+  <link rel="stylesheet" href="zee.css">
+<title> Booking Flight</title>
+</head>
+
+<body>
+<center>
+
+<img src = "">
+
+<h2 style = "margin-left:12px;color:black"> BOOKING </h2>
+
+
+<div>
+  <form action = "three.php" method = "post">
+
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="email" name="Email" placeholder="Email..">
+    <input type="text" id="phone" name="Phonenumber" placeholder="Phone Number.."><br>
+    <label style = "margin-top:40px;font-size:25px;margin-left:0px;position:absolute;color:black;">Flight time: </label>
+
+      <input type="radio" id = "fli" name="Flighttime" value = "Morning" style = "height: 20px;
+  width: 20px;margin-left: 220px;margin-top:43px;position: absolute;">  
+  <label style = "font-size:18px;color:black;margin-top:43px;position:absolute;margin-left: 245">Morning</label>
+
+      <input type="radio" id = "fli" name="Flighttime" value = "Evening" style = "height: 20px;
+  width: 20px;margin-left: 420px;margin-top:43px;position: absolute;">
+ <label style = "font-size:18px;color:black;margin-left:445px;margin-top:43px;position:absolute;">Evening </label>
+     <input type="text" id="Departure" name="Departure" placeholder="Departure.." style = " width: 60%;padding: 12px 20px;margin: 1px 0; display: inline-block;border: 1px solid #ccc;border-radius: 4px;margin-top:111px;box-sizing: border-box;position:relative;"><br>
+     <input type="text" id="return1" name="return1" placeholder="Return.." style = " width: 60%;padding: 12px 20px;margin: 1px 0; display: inline-block;border: 1px solid #ccc;border-radius: 4px;margin-top:30px;box-sizing: border-box;position:relative;"><br>
+ <select name = "Airline" id = "Airline" placeholder="Airline.." style = "width: 40%;padding: 12px 20px;margin: 1px 0; display: inline-block;border: 1px solid #ccc;border-radius: 4px;margin-top:30px;box-sizing: border-box;position:relative;margin-left: -263px">
+  <option value="" style = "color:grey;">Select your Airline</option>
+  <option value="Gulffare" style = "color:black;">Gulf Fare</option>
+  <option value="Arab Emirates" style = "color:black;">Arab Emirates</option>
+  <option value="AirBlue" style = "color:black;">AirBlue</option>
+  <option value="Serene Air" style = "color:black;">Serene Air</option>
+ </select>  
+<br>
+     <input type="submit" value="Submit">
+  </form>
+
+</div>
+</center>
+
+</body>
+</html>
